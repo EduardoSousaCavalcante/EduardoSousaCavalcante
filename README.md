@@ -1,5 +1,7 @@
 
-# 👨‍💻 Olá, sou o Eduardo! 👨‍💻
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=30&letterSpacing=1px&duration=2000&pause=1000&center=true&width=435&lines=Olá+a+todos!++%F0%9F%91%8B;Sou+Eduardo+Cavalcante!" alt="Typing SVG" /></a>
+</div>
 
 Estudante de Desenvolvivento de Ssitemas na ETEC da Zona Leste, São Paulo/SP
 
