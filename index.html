@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Welcome - Doug</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -17,7 +17,7 @@
         
         <nav class="search">
             <a class="btn-search" href="#"><span class="material-icons">search</span></a>
-            <input type="text" class="input-pesquisa">
+            <input type="text" class="input-pesquisa" placeholder="Eduardo Sousa Cavalcante" disabled>
         </nav>
         
         <nav class="control">
@@ -31,27 +31,8 @@
         <nav class="canto">
             <a id="close" class="btn-control" href="#"><span class="material-icons">close</span></a>
         </nav>
-
     </fieldset>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const btnSobre = document.getElementById("btn-sobre");
-            const fieldsetSobre = document.querySelector("fieldset.sobre");
-            const btnFecharSobre = document.querySelector("fieldset.sobre #close");
-
-            btnSobre.addEventListener("click", function (e) {
-                e.preventDefault();
-                fieldsetSobre.style.display = "flex";
-            });
-
-            btnFecharSobre.addEventListener("click", function (e) {
-                e.preventDefault();
-                fieldsetSobre.style.display = "none";
-            });
-        });
-    </script>
-
-
+    <script src="functions.js"></script>
 </body>
 </html>
