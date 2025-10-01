@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <fieldset class="home">
+        <nav class="btn-group">
+            <a href="#" class="btn btn-white" id="btn-sobre">Sobre</a>
+            <a href="#" class="btn btn-white">Material</a>
+            <a href="#" class="btn btn-white">Contato</a>
+        </nav>
+        
+        <nav class="search">
+            <a class="btn-search" href="#"><span class="material-icons">search</span></a>
+            <input type="text" class="input-pesquisa">
+        </nav>
+        
+        <nav class="control">
+            <a id="remove" class="btn-control" href="#"><span class="material-icons">remove</span></a>
+            <a id="fullscreen" class="btn-control" href="#"><span class="material-icons">fullscreen</span></a>
+            <a id="close" class="btn-control" href="#"><span class="material-icons">close</span></a>
+        </nav>
+    </fieldset>
+    
+    <fieldset class="sobre">
+        <nav class="canto">
+            <a id="close" class="btn-control" href="#"><span class="material-icons">close</span></a>
+        </nav>
+
+    </fieldset>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const btnSobre = document.getElementById("btn-sobre");
+            const fieldsetSobre = document.querySelector("fieldset.sobre");
+            const btnFecharSobre = document.querySelector("fieldset.sobre #close");
+
+            btnSobre.addEventListener("click", function (e) {
+                e.preventDefault();
+                fieldsetSobre.style.display = "flex";
+            });
+
+            btnFecharSobre.addEventListener("click", function (e) {
+                e.preventDefault();
+                fieldsetSobre.style.display = "none";
+            });
+        });
+    </script>
+
+
+</body>
+</html>

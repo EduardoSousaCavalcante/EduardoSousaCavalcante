@@ -1,0 +1,146 @@
+body {
+    background: 
+        radial-gradient(circle at top left, #0e0e0e),
+        radial-gradient(circle at top right, #2b0044, transparent 48%),
+        radial-gradient(circle at bottom left, #061c4d, transparent 48%),
+        radial-gradient(circle at bottom right, #0e0e0e);
+    background-blend-mode: screen;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* centraliza na horizontal */
+    justify-content: flex-start;  /* alinha ao topo da página */
+    font-family: arial;
+}
+
+
+.home {
+    padding: 2px;
+    display: flex;
+    width: calc(100% - 40px);
+    margin: 20px;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+
+    height: auto;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: space-between;
+}
+
+
+.btn-group {
+    margin: 0;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.btn {
+    margin: 0;
+    position: relative;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+    text-decoration: none;
+}
+
+.btn-white {
+    color: whitesmoke;
+    background-color: transparent;
+    border: 1px solid;
+    margin-right: 2px;
+
+}
+
+.btn-white:hover {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: black;
+    transition: 0.2;
+    }
+
+.search {
+    margin: 0;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.input-pesquisa {
+    margin: 0;
+    position: relative;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: whitesmoke;
+    border: 1px solid white;
+    height: auto;
+}
+
+.btn-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31px;
+    height: 31px;
+    margin-right: 2px;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.btn-search:hover {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.control {
+    margin: 0;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.btn-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31px;
+    height: 31px;
+    background-color: transparent;
+    margin-left: 2px;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+#close:hover {
+    background-color: red;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.sobre {
+    position: relative;
+    padding: 2px;
+    display: none;
+    width: calc(100% - 40px);
+    margin: 20px;
+    margin-top: 0;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    height: 250px;
+    align-items: center;
+}
+
+.canto {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
